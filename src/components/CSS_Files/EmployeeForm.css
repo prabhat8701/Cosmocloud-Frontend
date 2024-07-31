@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .form-field {
+    /* display: flex;
+    align-items: center;
+    margin-bottom: 15px; */
+    margin-bottom: 15px;
+  }
+  
+  .form-field label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .form-field input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #009879;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #007f67;
+  }
+  
